@@ -1,7 +1,7 @@
-# Heroku Buildpack Compass
+# Heroku Buildpack Compass with Grunt support
 
 A simple buildpack, designed to run with the [multi buildpack](https://github.com/ddollar/heroku-buildpack-multi),
-which will run install SASS/Compass.
+which will run install SASS/Compass with Grunt.
 
 ## Usage
 
@@ -12,4 +12,4 @@ which will run install SASS/Compass.
 2. Configure your `.buildpacks` file:
 
    https://github.com/heroku/heroku-buildpack-nodejs
-   https://github.com/kenhkan/heroku-buildpack-compass
+   https://github.com/kenhkan/heroku-buildpack-compass-grunt
